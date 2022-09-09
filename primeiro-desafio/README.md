@@ -1,0 +1,1 @@
+<p>A ideia inicial do projeto era criar uma página com as tags aprendidas no módulo e explicando a funcionalidade das mesmas, porém tomei a liberdade de alterar o conteúdo e criar a página falando sobre 4 das minhas bandas favoritas.</p>
