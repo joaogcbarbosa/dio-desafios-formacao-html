@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <ul>
+          <li>
+            <a target="_self" href="pagina-principal.html">Página principal</a>
+          </li>
+          <li>
+            <a target="_self" href="sobre-clinica.html">Sobre a clínica</a>
+          </li>
+          <li>
+            <a target="_self" href="horario-atendimento.html"
+              >Horário de atendimento</a
+            >
+          </li>
+          <li><a target="_self" href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <img
+            src="imagens/header-contato.png"
+            width="1000"
+            height="175"
+            alt="Imagem com os símbolos de e-mail, telefone e mensagem"
+          />
+        </div>
+        <div class="content">
+          <form
+            name="Formulário de envio de mensagem"
+            target="_self"
+            autocomplete="off"
+            method="post"
+            action="#"
+          >
+            <label>Nome: </label><br />
+            <input type="text" name="name" /><br />
+
+            <label>E-mail: </label><br />
+            <input type="email" name="email" /><br />
+
+            <label>Assunto: </label><br />
+            <input type="text" name="subject" /><br />
+
+            <label>Mensagem: </label><br /><textarea
+              name="message"
+              cols="21"
+              rows="5"
+            >
+Envie-nos uma mensagem!</textarea
+            ><br />
+
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Limpar" />
+          </form>
+          <div class="contacts">
+            <h4>Telefones: (21) 98752-6530 / (21) 97754-9090 (WhatsApp)</h4>
+            <h4>Endereço: Rua Dr. Caetano de Faria Castro nº 25 - 5º Andar</h4>
+          </div>
+          <iframe
+            class="address"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d459.406804977439!2d-43.55714399888859!3d-22.903984187915725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be1572120810b%3A0x9a34d4315a836c0b!2sMundo%20Verde%20Campo%20Grande!5e0!3m2!1spt-BR!2sbr!4v1664034547271!5m2!1spt-BR!2sbr"
+            width="400"
+            height="175"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="footer">
+          <h3>
+            Telefones para contato: (21) 98752-6530 / (21) 97754-9090 (WhatsApp)
+          </h3>
+          <h3>E-mail: clinica.olhos@gmail.com</h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
