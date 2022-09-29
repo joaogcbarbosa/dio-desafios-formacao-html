@@ -1,0 +1,1 @@
+<p>Além da proposta inicial, nessa segunda versão busquei fazer algumas melhorias e aperfeiçoar a semântica do código por meio do conteúdo fornecido durante o módulo de semântica em HTML5, porém sem perder a simplicidade, pois foi o primeiro projeto com a linguagem.</p>
