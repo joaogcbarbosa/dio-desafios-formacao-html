@@ -5,7 +5,12 @@
 
 body {
   background-color: rgb(235, 233, 233);
+  background-image: radial-gradient(rgb(235, 233, 233), rgb(136, 135, 135));
   margin: 20px;
+}
+
+h1 {
+  font-size: 30px;
 }
 
 .menu ul li {
@@ -21,6 +26,8 @@ figure {
   padding: 15px;
 }
 
-img {
-  border-radius: 20px;
+.band-photo {
+  border: solid black;
+  border-radius: 10px;
+  border-width: 2px;
 }
