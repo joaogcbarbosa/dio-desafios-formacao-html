@@ -1,2 +1,2 @@
 # dio-desafios-formacao-html
- Repositório para projetos em HTML5
+ Repositório para projetos das Formações HTML e CSS Developer
