@@ -1,0 +1,213 @@
+header {
+  background: url(/formacao-css/quarto-desafio/assets/images/header-background.png)
+    top center / 119rem 500px no-repeat scroll;
+  height: 500px;
+}
+
+.header-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.call {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.call h1 {
+  align-self: start;
+  font: normal 400 32px/32px 'Luckiest Guy', cursive;
+  color: #ffffff;
+  display: inline-block;
+  width: 11rem;
+  margin-top: 30px;
+}
+
+.call p {
+  font: normal 400 16px/22px 'Open Sans', serif;
+  color: #ffffff;
+  width: 21.4rem;
+  margin-top: 20px;
+}
+
+.navigation-itens {
+  font: normal 400 16px/22px 'Open Sans', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.navigation-itens nav:nth-child(odd) {
+  color: #23272a;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  padding: 0.75rem;
+  width: 21.4rem;
+  text-align: center;
+}
+
+.navigation-itens nav:nth-child(even) {
+  color: #ffffff;
+  background-color: #23272a;
+  border-radius: 1.5rem;
+  padding: 0.75rem;
+  width: 21.4rem;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main section {
+  padding: 35px 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main section:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+main section:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+main section img {
+  max-width: 100%;
+}
+
+main section:last-child img {
+  margin-top: 25px;
+}
+
+main section h2 {
+  align-self: start;
+  font: normal 800 24px/33px 'Open Sans', serif;
+  color: #23272a;
+  margin-top: 25px;
+}
+
+main section:last-child h2 {
+  font: normal 400 32px/32px 'Luckiest Guy', cursive;
+  margin-top: initial;
+}
+
+main section p {
+  margin-top: 25px;
+  font: normal 400 16px/22px 'Open Sans', serif;
+  color: #23272a;
+}
+
+.discord-footer {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #23272a;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 460px) {
+  main section img {
+    width: 70%;
+  }
+}
+
+@media (min-width: 700px) {
+  .header-content {
+    gap: 15px;
+  }
+
+  .call {
+    margin-top: 25px;
+  }
+
+  .call h1 {
+    font-size: 56px;
+    line-height: 56px;
+    width: 20rem;
+    text-align: center;
+    align-self: center;
+  }
+
+  .call p {
+    text-align: center;
+    width: 47rem;
+  }
+
+  .navigation-itens {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  main section img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 900px) {
+  main section {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+  }
+
+  main section:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  main section:last-child {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .title-paragraph {
+    width: 24rem;
+  }
+
+  main section:last-child .title-paragraph {
+    width: 50rem;
+  }
+
+  main section h2 {
+    font-size: 40px;
+    line-height: 54px;
+  }
+
+  main section:last-child .title-paragraph h2 {
+    display: inline-block;
+    width: 23rem;
+    text-align: center;
+  }
+
+  main section img {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1100px) {
+  main section img {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1500px) {
+  main section img {
+    width: 25%;
+  }
+}
